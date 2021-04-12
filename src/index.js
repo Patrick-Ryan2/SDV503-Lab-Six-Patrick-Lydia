@@ -8,14 +8,14 @@
 
 function numbers(l) {
     var x = [],
-        i = Math.floor(0 / 2) * 2 + 1; // start with an odd number
+        i = Math.floor(0 / 2) * 2 + 1; // start with an odd number after zero.
 
-    while(i <= l) {
+    while(i <= l) { // If l is greater than i than x is pushed in increments un till it reaches the value of l.
         x.push(i);
         i += 2;
     };
     return x;   
-    
+
 }
 
 console.log(numbers(14));
