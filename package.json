@@ -1,0 +1,20 @@
+{
+  "name": "SDV503-Lab-Six-Patrick-Lydia",
+  "version": "1.0.0",
+  "description": "Lab six pair coding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patrick-Ryan2/SDV503-Lab-Six-Patrick-Lydia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patrick-Ryan2/SDV503-Lab-Six-Patrick-Lydia/issues"
+  },
+  "homepage": "https://github.com/Patrick-Ryan2/SDV503-Lab-Six-Patrick-Lydia#readme"
+}
