@@ -8,15 +8,21 @@
 
 function numbers(l) {
     var x = [],
-        i = Math.floor(0 / 2) * 2 + 1; // start with an odd number after zero.
 
+        i = Math.floor(0 / 2) * 2 + 1; // start with an odd number after zero.
+        
     while(i <= l) { // If l is greater than i than x is pushed in increments un till it reaches the value of l.
-        x.push(i);
+        x.push(i); // Adds onto x increments of I which is 2 until it matches l.
         i += 2;
+       
     };
     return x;   
-
+   
 }
 
-console.log(numbers(14));
+console.log(numbers(13));
+
+
+
+
 
