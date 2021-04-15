@@ -14,14 +14,14 @@
     so you access the properties of this object with dot notation by 
     counts.property_1 and counts.property_2 */
 
-    function getCount(l,d) {
-        var counts = new Object();
-        counts.likes = l
-        counts.dislikes = d
-        console.log(l - d)
+    function getCount(l,d) { // New getCount function with parameter l and d
+        var counts = new Object(); // Declares new count variable and sets it to a new object
+        counts.likes = l // sets a like properly of the object to = the l parameter
+        counts.dislikes = d // sets a dislike properly of the object to = the d parameter
+        console.log(l - d) // sets a log properly of the object to = l - d
        
     }
      
-    getCount(13,0)
-    getCount(2,23)
-    getCount(100,100)
+    getCount(13,0) // Invokes the getCount function with its parameters
+    getCount(2,23) // Invokes the getCount function with its parameters
+    getCount(100,100) // Invokes the getCount function with its parameters
