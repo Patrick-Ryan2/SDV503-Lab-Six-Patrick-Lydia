@@ -6,7 +6,7 @@
 //Ex:  addOddNumbers(5)  -> 9  // 1 + 3 + 5 = 9
 //Ex: addOddnumbers(13) -> 49 // 1 + 3 + 5 + 7 + 9 + 11 + 13 = 49
 
-function numbers(l) {
+function numbers(l) { // Created numbers function with l parameter
     var arr = [],// Creates new empty arrays
     
         i = Math.floor(0 / 2) * 2 + 1; // start with an odd number after zero. 
