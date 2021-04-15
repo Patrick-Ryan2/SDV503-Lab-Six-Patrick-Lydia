@@ -21,6 +21,8 @@ In task one we first wrote this function below which successfully listed in an a
 		
 		console.log(numbers(14)); // Console logs the result of numbers function using inputted variable as basis for functions argument.
 
+        //result
+        // 1,3,5,7,9,11,13
 I was stuck on how to then add up the odd number array to get its total i eventually remembered the reduce method which i used to add up the odd number arrays content to get its total. Below is the second version with the reduce method.
 
     function numbers(l) { // Created numbers function with l parameter
@@ -41,6 +43,9 @@ I was stuck on how to then add up the odd number array to get its total i eventu
     
     }
     console.log(numbers(13)); // Console logs the result of numbers function using inputted variable as basis for functions argument.
+
+    //result
+     // The odd numbers of 13 are 1,3,5,7,9,11,13 and there total is 49
 
 
  
