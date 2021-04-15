@@ -7,7 +7,7 @@ One of these mistakes which has been a bad habit of mine which I have stopped do
 
 In task one we first wrote this function below which successfully listed in an array the odd numbers of the inputted variable.  To start the array from an odd number  i used math.floor and push i used to then iterate the array in an odd sequence of numbers. 
 
-     function numbers() {
+     function numbers(l) { // Created numbers function with l parameter
 	 	var x = [],
 		 i = Math.floor(0 / 2) * 2 + 1; // start with an odd number
 		
@@ -23,7 +23,7 @@ In task one we first wrote this function below which successfully listed in an a
 
 I was stuck on how to then add up the odd number array to get its total i eventually remembered the reduce method which i used to add up the odd number arrays content to get its total. Below is the second version with the reduce method.
 
-    function numbers(l) {
+    function numbers(l) { // Created numbers function with l parameter
      var arr = [],// Creates new empty arrays
     
         i = Math.floor(0 / 2) * 2 + 1; // start with an odd number after zero. 
